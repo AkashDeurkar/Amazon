@@ -1,0 +1,35 @@
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;    /*main axis ke along even space me name arrange karna hai to*/
+    /* justify-content: center; */
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    /* background-color: red ; */
+}
+
+li{
+   list-style-type: none;      /*list ke dot point remove karne ke liye*/
+   display: inline;             /*saare name ek line me aane ke liye*/
+   /* background-color:white; */
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue ;
+    display: flex;                /*flex box use karne ke liye*/
+    justify-content: center;
+    align-items: center;          /*vertically center me align karne ke liye*/
+    /* ek div ke andar dusra div fix karna hai center me tab outer wala use karenge */
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:darkorchid;
+
+}
